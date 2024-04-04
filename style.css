@@ -1,0 +1,151 @@
+body {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+    /* background-color: #161623; */
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    height: 200%;
+  }
+
+  body, ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo{
+    /* display: none; */
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+
+  /* Navbar styles */
+  nav {
+    background-color: #943dc7;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    margin-right: 1rem;
+  }
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  nav ul li:hover{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    transition: all 0.5s center ease-in-out;
+  }
+
+  .nav-btn{
+    border: 2px solid ;
+    border-radius: 10px;
+  }
+
+  .nav-btn:hover{
+    background-color: #6c0da4;
+    border-bottom: 2px solid;
+  }
+  
+  /* Toggle button styles */
+  .toggle-btn {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  /* Hide the checkbox */
+  #toggle {
+    display: none;
+  }
+
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    nav ul {
+      display: none;
+      flex-direction: column;
+      background-color: #333;
+      position: absolute;
+      top: 3.5rem;
+      left: 0;
+      width: 100%;
+      padding: 1rem;
+    }
+    
+    nav ul li {
+      margin: 0.5rem 0;
+    }
+    
+    .toggle-btn {
+      display: block;
+    }
+    
+    #toggle:checked ~ ul {
+      display: flex;
+    }
+  }
+
+
+
+      /* Footer styles */
+      footer {
+        background-color: #000;
+        color: #fff;
+        padding: 2rem;
+        text-align: center;
+        /* position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0; */
+      }
+  
+      .social-links {
+        list-style-type: none;
+        padding: 0;
+        margin-bottom: 1rem;
+      }
+  
+      .social-links li {
+        display: inline-block;
+        margin: 0 0.5rem;
+      }
+  
+      .social-links a {
+        color: #fff;
+        font-size: 1.5rem;
+        transition: color 0.3s ease;
+      }
+  
+      .social-links a:hover {
+        color: #ccc;
+      }
+  
+      /* Responsive styles */
+      @media (max-width: 768px) {
+        footer {
+          padding: 1rem;
+        }
+  
+        .social-links li {
+          margin: 0 0.25rem;
+        }
+  
+        .social-links a {
+          font-size: 1.2rem;
+        }
+      }
