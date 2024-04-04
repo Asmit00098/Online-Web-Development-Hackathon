@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Form</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+  <link rel="stylesheet" href="/stylesheets/contact.css">
+
+</head>
+<body class="m-1 bg-blue-950 w-[90vw] h-screen">
+  <header class="flex flex-col items-center font-serif font-bold text-gray-200">
+    <h1 class="text-3xl">Get In Touch</h1>
+    <h3 class="text-xl">Feel free to give feedback to us</h3>
+    <br>
+  </header>
+
+  <div class="content1 flex flex-row w-full h-full mt-14">
+    <div class="left h-2/3 w-1/2 p-10">
+        <h1 class="text-4xl text-green-500 font-mono font-bold">Feedback Form</h1>
+        <div class="w-4/5 leading-relaxed">
+            <p class="mt-7 text-lg text-white"> Hello, Thank you for taking the time to provide feedback. Your input is invaluable to us as we strive to improve our services. Please take a moment to share your thoughts with us. </p>
+        </div>
+        <div class="flex mt-10 text-2xl">
+          <i class="ri-phone-fill logo  p-2 mr-4"></i>
+          
+          <h1 class="text-white mt-2"> +91 xxx-xxx-xxxx</h1>
+          
+        </div>
+        <div class="flex mt-10 text-2xl">
+        <i class="ri-mail-line p-2 mr-4 logo"></i>
+          <h1 class="text-white mt-2"> abcd55@gxail.com</h1>
+        </div>
+    </div>
+    <div class="w-1/2">
+      
+      <div class="login h-2/3 w- ml-10 ">
+    
+        <h1>Feedback Form</h1>
+
+        <form action="/login" method="post"> 
+
+            <div class="input-box">
+                <input type="text" name="username" placeholder="Name*">
+            </div>
+
+            <div class="input-box">
+                <input type="email" placeholder="Email*" name="email">
+            </div>
+            <div class="input-box">
+              <textarea cols="25" rows="4" placeholder="Message*"></textarea>
+          </div>
+
+            <button type="submit">Submit</button>
+            
+          </form>
+      
+    </div>
+    </div>
+  </div>
+</body>
+</html>
