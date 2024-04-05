@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="interaction.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Climate+Crisis&family=Fjalla+One&family=Fugaz+One&family=Khula:wght@300;400;600;700;800&family=Lemon&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Rhodium+Libre&family=Unna:ital,wght@0,400;0,700;1,400;1,700&family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <a href="#" class="logo">NiggerOnSale</a>
+        <input type="checkbox" id="toggle" class="toggle-btn">
+        <label for="toggle" class="toggle-btn">&#9776;</label>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#" class="nav-btn register-link">Register</a></li>
+          <li><button class="logout-btn" style="display: none;">Logout</button></li>
+        </ul>
+      </nav>
+
+      <!-- <main>
+        <section class="section-video">
+            <div class="video-container"></div>
+            <div class="video-container"></div>
+        </section>
+        <section class="section-chatbox">
+            
+        </section>
+      </main> -->
+
+
+      <div class="container">
+        <div class="video-container">
+          <div class="user-video">
+            <video id="user-video" autoplay></video>
+          </div>
+          <div class="partner-video">
+            <video id="partner-video" autoplay></video>
+          </div>
+        </div>
+    
+        <div class="chat-container">
+          <div class="chat-box">
+            <div class="chat-messages">
+              <!-- Chat messages will be displayed here -->
+            </div>
+            <div class="chat-input">
+              <input type="text" placeholder="Type your message..." />
+              <button class="send-btn">Send <i class="fa fa-paper-plane" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+    
+        <div class="controls">
+          <button class="cancel-btn">Cancel <i class="fa fa-ban" aria-hidden="true"></i></button>
+          <button class="chat-only-btn">Chat Only <i class="fa fa-comments" aria-hidden="true"></i></button>
+          <button class="new-call-btn">New Call <i class="fa fa-phone" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+
+</body>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
+
+</html>
