@@ -30,11 +30,14 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  height: 40px;
 }
 
 nav ul {
   display: flex;
   list-style-type: none;
+  justify-content: center;
+  align-items: center;
 }
 
 nav ul li {
@@ -56,11 +59,30 @@ nav ul li:hover {
 .nav-btn {
   border: 2px solid;
   border-radius: 10px;
+  padding: 0.5rem 1rem;
+
 }
 
 .nav-btn:hover {
-  background-color: #6c0da4;
-  border-bottom: 2px solid;
+  background-color: #53097d;
+  /* border-bottom: 2px solid; */
+}
+
+.logout-btn {
+  background-color: transparent;
+  color: #ffffff;
+  /* padding: 0.5rem; */
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 2px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #53097d;
+  /* border-bottom: 2px solid ; */
 }
 
 /* Toggle button styles */
